@@ -26,6 +26,17 @@
     <!-- Button for X and O-->
 
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        android:text=""
+        android:textSize="45dp" />
+
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -71,6 +82,7 @@
                 android:onClick="btn3"
                 android:textColor="#fff"
                 android:textSize="0dp" />
+
         </LinearLayout>
 
         <LinearLayout
