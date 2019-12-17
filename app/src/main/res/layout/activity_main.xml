@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#fff"
     tools:context=".MainActivity">
 
     <ImageView
@@ -12,7 +13,7 @@
         android:background="@drawable/tictac2" />
 
 
-    <ImageButton
+    <Button
         android:id="@+id/restart"
         android:layout_width="100dp"
         android:layout_height="100dp"
@@ -38,28 +39,38 @@
             android:layout_marginBottom="30dp"
             android:orientation="horizontal">
 
-            <ImageButton
+            <Button
                 android:id="@+id/btn11"
+                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="100dp"
-                android:layout_marginRight="30dp"
                 android:layout_height="100dp"
-                  />
+                android:layout_marginRight="30dp"
+                android:background="#fff"
+                android:onClick="btn1"
+                android:textColor="#fff"
+                android:textSize="0dp" />
 
-            <ImageButton
+            <Button
                 android:id="@+id/btn12"
+                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="100dp"
-                android:layout_marginRight="30dp"
-
                 android:layout_height="100dp"
-                  />
+                android:layout_marginRight="30dp"
+                android:background="#fff"
+                android:onClick="btn2"
+                android:textColor="#fff"
+                android:textSize="0dp" />
 
-            <ImageButton
+            <Button
                 android:id="@+id/btn13"
+                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="100dp"
-                android:layout_marginRight="30dp"
-
                 android:layout_height="100dp"
-                  />
+                android:layout_marginRight="30dp"
+                android:background="#fff"
+                android:onClick="btn3"
+                android:textColor="#fff"
+                android:textSize="0dp" />
         </LinearLayout>
 
         <LinearLayout
@@ -68,29 +79,38 @@
             android:layout_marginBottom="30dp"
             android:orientation="horizontal">
 
-            <ImageButton
+            <Button
                 android:id="@+id/btn21"
+                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_marginRight="30dp"
+                android:background="#fff"
+                android:onClick="btn4"
+                android:textColor="#fff"
+                android:textSize="0dp" />
 
-                  />
-
-            <ImageButton
+            <Button
                 android:id="@+id/btn22"
+                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="100dp"
-                android:layout_marginRight="30dp"
-
                 android:layout_height="100dp"
-                  />
+                android:layout_marginRight="30dp"
+                android:background="#fff"
+                android:onClick="btn5"
+                android:textColor="#fff"
+                android:textSize="0dp" />
 
-            <ImageButton
+            <Button
                 android:id="@+id/btn23"
+                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_marginRight="30dp"
-
-                  />
+                android:background="#fff"
+                android:onClick="btn6"
+                android:textColor="#fff"
+                android:textSize="0dp" />
         </LinearLayout>
 
         <LinearLayout
@@ -98,29 +118,39 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
-            <ImageButton
+            <Button
                 android:id="@+id/btn31"
+                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="100dp"
-                android:layout_marginRight="30dp"
-
                 android:layout_height="100dp"
-                  />
+                android:layout_marginRight="30dp"
+                android:background="#fff"
+                android:onClick="btn7"
+                android:textColor="#fff"
+                android:textSize="0dp" />
 
-            <ImageButton
+            <Button
                 android:id="@+id/btn32"
+                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="100dp"
-                android:layout_marginRight="30dp"
-
                 android:layout_height="100dp"
-                  />
+                android:layout_marginRight="30dp"
+                android:background="#fff"
+                android:onClick="btn8"
+                android:textColor="#fff"
+                android:textSize="0dp" />
 
-            <ImageButton
+            <Button
                 android:id="@+id/btn33"
+                style="?android:attr/borderlessButtonStyle"
                 android:layout_width="100dp"
-                android:layout_marginRight="30dp"
-
                 android:layout_height="100dp"
-                 />
+                android:layout_marginRight="30dp"
+                android:background="#fff"
+                android:onClick="btn9"
+
+                android:textColor="#fff"
+                android:textSize="0dp" />
         </LinearLayout>
 
 
